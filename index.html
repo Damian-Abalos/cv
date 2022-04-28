@@ -19,6 +19,24 @@
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <!-- <script src="main.js"></script> -->
+    <script>
+        const config = {
+            type: 'carousel',
+            perView: 3,
+            breakpoints: {
+                1550: {
+                    perView: 2
+                },
+                1024: {
+                    perView: 1
+                }
+            }
+        }
+
+        new Glide('.glide', config).mount()
+    </script>
     <div class="contenedor">
         <header class="d-flex justify-content-start">
             <div class="div-foto-personal"><img class="img-foto-personal w-100"
@@ -87,7 +105,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <h4>Database</h4>
-                            <p>                                
+                            <p>
                                 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
                                         alt="mongodb" width="40" height="40" />
@@ -159,8 +177,8 @@
                                 <li class="glide__slide">
                                     <div class="card p-1">
                                         <div class="d-flex justify-content-center">
-                                        <img src="https://damian-abalos.github.io/casa-vegana/img/casa-vegana.png"
-                                            class="card-img-top img-card imagen-card" alt="...">
+                                            <img src="https://damian-abalos.github.io/casa-vegana/img/casa-vegana.png"
+                                                class="card-img-top img-card imagen-card" alt="...">
                                         </div>
                                         <div class="card-body border-top border-2 border-dark">
                                             <h5 class="card-title text-center">Ecommerce Js</h5>
@@ -179,7 +197,7 @@
                                     <div class="card p-1">
                                         <div class="d-flex justify-content-center">
                                             <img src="https://damian-abalos.github.io/casa-vegana/img/casa-vegana.png"
-                                            class="card-img-top img-card imagen-card" alt="...">
+                                                class="card-img-top img-card imagen-card" alt="...">
                                         </div>
                                         <div class="card-body border-top border-2 border-dark">
                                             <h5 class="card-title text-center">Ecommerce React-Js</h5>
@@ -198,7 +216,7 @@
                                     <div class="card p-1">
                                         <div class="d-flex justify-content-center">
                                             <img src="https://dicofra.com/wp-content/themes/dicofra/images/logo.svg"
-                                            class="card-img-top img-card imagen-card" alt="...">
+                                                class="card-img-top img-card imagen-card" alt="...">
                                         </div>
                                         <div class="card-body border-top border-2 border-dark">
                                             <h5 class="card-title text-center">Dicofra - identidades</h5>
@@ -215,7 +233,8 @@
                                 <li class="glide__slide">
                                     <div class="card p-1">
                                         <div class="d-flex justify-content-center">
-                                            <img src="reloj.png" class="card-img-top img-card imagen-card" alt="reloj en js">
+                                            <img src="reloj.png" class="card-img-top img-card imagen-card"
+                                                alt="reloj en js">
                                         </div>
                                         <div class="card-body border-top border-2 border-dark">
                                             <h5 class="card-title text-center">Reloj Js</h5>
@@ -232,22 +251,30 @@
                             </ul>
                         </div>
                         <div class="glide__arrows" data-glide-el="controls">
-                            <button class="glide__arrow arrow-prev glide__arrow--left" data-glide-dir="<"> < </button>
-                            <button class="glide__arrow arrow-next glide__arrow--right" data-glide-dir=">"> > </button>
+                            <button class="glide__arrow arrow-prev glide__arrow--left" data-glide-dir="<">
+                                < </button>
+                                    <button class="glide__arrow arrow-next glide__arrow--right" data-glide-dir=">"> >
+                                    </button>
                         </div>
                     </div>
                 </div>
                 <div class="div-article">
                     <h2>Certificados</h2>
                     <div class="row">
-                        <a href="https://www.coderhouse.com/certificados/60f3626d5ab3120012b01d15" class="col-xl-4 col-lg-6 col-sm-12 mt-1 mb-1" target="_blank">
-                            <img src="certificado-desarrollo-web-coderhose.png" alt="certificado coderhouse diseño web - Damian Abalos" class="w-100">
+                        <a href="https://www.coderhouse.com/certificados/60f3626d5ab3120012b01d15"
+                            class="col-xl-4 col-lg-6 col-sm-12 mt-1 mb-1" target="_blank">
+                            <img src="certificado-desarrollo-web-coderhose.png"
+                                alt="certificado coderhouse diseño web - Damian Abalos" class="w-100">
                         </a>
-                        <a href="https://www.coderhouse.com/certificados/6155207c2295560056f803a2" class="col-xl-4 col-lg-6 col-sm-12 mt-1 mb-1" target="_blank">
-                            <img src="certificado-js-coderhose.png" alt="certificado coderhouse JavaScript - Damian Abalos" class="w-100">
+                        <a href="https://www.coderhouse.com/certificados/6155207c2295560056f803a2"
+                            class="col-xl-4 col-lg-6 col-sm-12 mt-1 mb-1" target="_blank">
+                            <img src="certificado-js-coderhose.png"
+                                alt="certificado coderhouse JavaScript - Damian Abalos" class="w-100">
                         </a>
-                        <a href="https://www.coderhouse.com/certificados/61a97f3fd03b4b007b754d2d" class="col-xl-4 col-lg-6 col-sm-12 mt-1 mb-1" target="_blank">
-                            <img src="certificado-react-js-coderhose.png" alt="certificado coderhouse React Js - Damian Abalos" class="w-100">
+                        <a href="https://www.coderhouse.com/certificados/61a97f3fd03b4b007b754d2d"
+                            class="col-xl-4 col-lg-6 col-sm-12 mt-1 mb-1" target="_blank">
+                            <img src="certificado-react-js-coderhose.png"
+                                alt="certificado coderhouse React Js - Damian Abalos" class="w-100">
                         </a>
                     </div>
                 </div>
@@ -301,8 +328,6 @@
             </aside>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="main.js"></script>
 
 </body>
 
