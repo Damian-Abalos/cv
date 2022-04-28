@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.p-formacion{
+}
+
+.contenedor{
+    border: 2px black solid;
+    width: 85%;
+    margin: 1em auto;
+    background-color: #1287A6;
+}
+
+header{
+    background-color: #0D3A54;
+}
+
+.div-foto-personal{
+    margin: 2em;
+}
+
+.img-foto-personal{
+    width: 250px;
+    height: 250px;
+    border: 2px #02ADF2 solid;
+    border-radius: 50%;
+}
+
+.texto-header{
+    margin: auto 0;
+    padding: 2em 0;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.mi-span{
+    color: aliceblue;
+
+}
+
+.div-article{
+    width: 90%;
+    margin:1em auto 2em auto;
+
+
+}
+
+.trabajos{
+    margin: 0;
+    padding: 0;
+
+}
+
+article{
+    background-color: #ecffe9;
+    box-shadow: -2px 2px 10px 1px black;
+}
+#mi-aside{
+    padding: 1em;
+    background-color: #cdecf3;
+    box-shadow: 2px 2px 10px 1px black;
+}
+.card{
+    max-width: 260px!important;
+}
+.imagen-card{
+    width: 240px!important;
+    height: 240px;
+    margin-bottom: 4px;
+}
+
+.carousel{
+    width: 80%;
+    margin: auto;
+}
+
+.arrow-prev{
+    color: #000!important;
+    background-color: rgba(255, 255, 255, 0.677)!important;
+    left: -35px!important;
+    padding: 7px 7px!important;
+}
+
+.arrow-next{
+    color: #000!important;
+    background-color: rgba(255, 255, 255, 0.677)!important;
+    right: -35px!important;
+    padding: 7px 7px!important;
+}
